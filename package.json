@@ -1,0 +1,30 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "This is an exercise with mailchimp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sara Shember",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "handlebars": "^4.7.7",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.10.1",
+    "@fastify/view": "^7.4.1",
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
